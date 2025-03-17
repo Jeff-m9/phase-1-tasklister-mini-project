@@ -28,7 +28,3 @@ const createTodo = (todo) => {
 const deleteTask = (event) => {
   event.target.parentNode.remove();
 };
-
-const dateDue = (e) => {
-  e.target.elements["date-due"].value;
-};
